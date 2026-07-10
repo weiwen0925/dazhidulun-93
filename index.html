@@ -1143,5 +1143,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C93P3:END-->
+<!--WY-C93P4:BEGIN-->
+<style id="wy-c93p4-css">
+.c93p4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c93p4-fabbox.show{display:block;}
+.c93p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c93p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c93p4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c93p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c93p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c93p4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c93p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c93p4-modal.open{display:flex;}
+.c93p4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c93p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c93p4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c93p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c93p4-close:hover{background:#e3d5b8;}
+.c93p4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c93p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c93p4-tbl th,.c93p4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c93p4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c93p4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c93p4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c93p4-tbl b{color:#8b2500;}
+.c93p4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c93p4-note b{color:#8b2500;}
+@media(max-width:900px){.c93p4-fabbox{right:14px;}.c93p4-tbl{font-size:11.5px;}.c93p4-card{padding:26px 14px 16px;}}
+</style>
+<div class="c93p4-fabbox" id="c93p4Box"><button class="c93p4-btn" id="c93p4Btn" type="button" aria-label="開啟全景總表"><span class="c93p4-ic">▦</span><span class="c93p4-ls"><span class="c93p4-l1">本品 · 畢定不退</span><span class="c93p4-l2">釋畢定品第八十三</span></span></button></div><div class="c93p4-modal" id="c93p4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c93p4-card"><button class="c93p4-close" id="c93p4Close" type="button" aria-label="關閉">×</button><h3>品四．畢定不退——三種菩薩同入絕對軌道</h3><p class="sub">認識論升華、對治悉檀、二諦交涉三柱解畢定之辯</p><table class="c93p4-tbl"><caption>詮釋學困境與經論原典</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>兩種標準的張力</td><td>阿鞞跋致品的嚴格標準（不退者若一若二）與法華經的寬容標準（一稱南無佛皆當作佛）表面矛盾</td></tr><tr><td>五輪問答</td><td>須菩提層層設問：定或不定、於何道畢定、於何位畢定、畢定墮惡道否、清淨善根與受身如何並存</td></tr><tr><td>般若種種門</td><td>論主答以阿鞞跋致是一門中說，畢定是異門更問，佛心中一切眾生一切法皆畢定，人以智不及故言不畢定</td></tr><tr><td>三種菩薩皆畢定</td><td>初發意、阿鞞跋致、最後身菩薩皆入必當作佛的絕對軌道，判準在軌道有無而非現階段定力深淺</td></tr></tbody></table><table class="c93p4-tbl"><caption>認識論升華與對治悉檀</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>凡情與佛智</td><td>凡夫僅見數百劫內之退墮便判不畢定，佛徹見無量阿僧祇劫知因果不失，同一對象短視見退全景見成</td></tr><tr><td>金剛魚鉤喻</td><td>菩薩一旦真實發菩提心，如魚吞鉤，無論此刻如何掙扎，終必被釣起，現階段定力深淺只是過程</td></tr><tr><td>對治悉檀</td><td>為懈怠不牢固者說若一若二以激發精進，為大悲心薄自愛身重者說皆畢定以安慰恐懼，藥病相應不住一法</td></tr><tr><td>二諦交涉</td><td>真諦門中畢竟空故無退無成，俗諦門中為對治而說有無難易，退是緣起幻相，成是因果必然</td></tr></tbody></table><table class="c93p4-tbl"><caption>嚴訶二乘與受身本質轉換</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>遍知法性vs少分取證</td><td>大乘求遍知法性全貌，二乘於法性少分取證便自止息，如盲人摸象，捨佛道不度眾生</td></tr><tr><td>涅槃即世間</td><td>涅槃與世間無有少分別，無牆亦無牆外，逃無可逃，故嚴訶二乘勿以化城為實所</td></tr><tr><td>業報身vs變化身</td><td>凡夫隨業力牽引身不由己而墮惡道，菩薩隨大悲願力主動示現，同為畜生身而本質迥異</td></tr><tr><td>幻師喻與大方便力</td><td>幻師所作象馬皆不實，菩薩現身度生亦復如是，以無上忍辱慈悲於惡道饒益有情而不受苦</td></tr></tbody></table><p class="c93p4-note">本品所解的表面矛盾，其實是同一佛智在不同根機前呈現的兩張面孔：嚴格標準警策懈怠者莫得少為足，寬容標準安撫怯弱者莫輕言退轉，二說皆實，皆為令眾生終成菩提而設。龍樹進一步以「金剛魚鉤」喻示菩提心一經發起即成不可逆的軌道，又以幻師幻物說明菩薩受身度生雖現惡趣之相，而本體空、無漏、大用三重具足，故能於染污中行無漏法。全品核心結論只有一句：退是過程中的緣起幻相，成是法界全景的絕對必然。</p></div></div>
+<script id="wy-c93p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c93p4Btn"),BOX=document.getElementById("c93p4Box"),MODAL=document.getElementById("c93p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".wy-vid,#wyVideo,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c93p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C93P4:END-->
 </body>
 </html>
