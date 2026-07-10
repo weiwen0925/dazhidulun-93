@@ -1196,5 +1196,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C93P4:END-->
+<!--WY-C93P5:BEGIN-->
+<style id="wy-c93p5-css">
+.c93p5-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c93p5-fabbox.show{display:block;}
+.c93p5-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c93p5-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c93p5-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c93p5-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c93p5-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c93p5-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c93p5-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c93p5-modal.open{display:flex;}
+.c93p5-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c93p5-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c93p5-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c93p5-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c93p5-close:hover{background:#e3d5b8;}
+.c93p5-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c93p5-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c93p5-tbl th,.c93p5-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c93p5-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c93p5-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c93p5-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c93p5-tbl b{color:#8b2500;}
+.c93p5-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c93p5-note b{color:#8b2500;}
+@media(max-width:900px){.c93p5-fabbox{right:14px;}.c93p5-tbl{font-size:11.5px;}.c93p5-card{padding:26px 14px 16px;}}
+</style>
+<div class="c93p5-fabbox" id="c93p5Box"><button class="c93p5-btn" id="c93p5Btn" type="button" aria-label="開啟全景總表"><span class="c93p5-ic">▦</span><span class="c93p5-ls"><span class="c93p5-l1">本品 · 羅漢轉向</span><span class="c93p5-l2">釋畢定品（彙整深化）</span></span></button></div><div class="c93p5-modal" id="c93p5Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c93p5-card"><button class="c93p5-close" id="c93p5Close" type="button" aria-label="關閉">×</button><h3>品五．羅漢轉向——阿羅漢的第四空間與菩薩受生戰略</h3><p class="sub">兩大邏輯悖論的中觀四維解構</p><table class="c93p5-tbl"><caption>兩大悖論與第四空間</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>悖論一</td><td>阿羅漢三界諸漏因緣盡而灰身滅智，聲聞皆當作佛的成佛主體究竟安住何處</td></tr><tr><td>悖論二</td><td>大菩薩畢定不墮惡趣，何以本生譚屢屢示現受盡折磨的畜生身，善根功德去了哪裡</td></tr><tr><td>第四空間解套</td><td>出於三界之外別有淨佛土，涅槃非生命終結之無而是煩惱止息，阿羅漢於彼受法性身聞法華而轉</td></tr><tr><td>四維解構</td><td>無住涅槃破斷滅見、緣起中道定受生落點、業果不亡立因果鐵律、如幻大悲拆人法二空</td></tr></tbody></table><table class="c93p5-tbl"><caption>速度之謎與因果鐵律</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>迂迴稽留之因</td><td>阿羅漢著小乘因緣捨眾生捨佛道，根性已鈍需漫長復健，不如直往菩薩始終直往</td></tr><tr><td>莫以化城為實所</td><td>三界如獄為俗，偏空涅槃為破，出世淨土為中道，執著於空亦是法執戲論</td></tr><tr><td>無因則無果</td><td>菩薩從初發心已斷十不善道，火種既除必定無火，墮惡道無有是處，此為宇宙鐵律</td></tr><tr><td>業報身轉願力身</td><td>凡夫因業力被動受身如囚衣，菩薩因大悲願力主動受身如防護衣，外形同而動力異</td></tr></tbody></table><table class="c93p5-tbl"><caption>受生戰略與六牙白象</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>離二邊的空降</td><td>不生長壽天（樂極難度）、不生邊地（文化荒漠）、不生邪見家（無作見最重），精準選中國有佛法處</td></tr><tr><td>真金與銅鐵</td><td>成就大力菩薩如真金在泥不壞可入險地度生，新發心菩薩如銅鐵在泥則壞故當先護其本</td></tr><tr><td>六牙白象本生</td><td>菩薩象被獵者射胸猶擁抱獵人拔牙相贈，視獵者為煩惱操控之病患，治鬼不治人</td></tr><tr><td>藍圖總成</td><td>凡夫沉淪三界、羅漢盤旋化城、菩薩一線直往寶所，終持一偈：因果嚴然故須避惡，性空如幻故敢捨身</td></tr></tbody></table><p class="c93p5-note">兩大悖論看似分屬空間與因果兩個層面，龍樹卻用同一套中觀邏輯一次解開：涅槃非虛無而是煩惱止息，故阿羅漢滅後有處可往；受生非業報而可為願力，故菩薩不墮惡道而仍能示現獸身度生。六牙白象拔牙飼獵者的公案，正是「治鬼不治人」與「身相如衣，實相無染」的極致演繹——凡夫因執實而生苦惱，菩薩因了知畢竟空，故能將最慘烈的受害情境，翻轉為最殊勝的無緣大慈道場。</p></div></div>
+<script id="wy-c93p5-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c93p5Btn"),BOX=document.getElementById("c93p5Box"),MODAL=document.getElementById("c93p5Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=4;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".wy-vid,#wyVideo,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c93p5Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C93P5:END-->
 </body>
 </html>
