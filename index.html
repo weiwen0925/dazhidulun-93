@@ -984,5 +984,58 @@ else window.addEventListener('load',function(){setTimeout(go,300);});
 })();
 </script>
 <!--WY-GOTO:END-->
+<!--WY-C93P1:BEGIN-->
+<style id="wy-c93p1-css">
+.c93p1-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c93p1-fabbox.show{display:block;}
+.c93p1-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c93p1-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c93p1-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c93p1-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c93p1-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c93p1-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c93p1-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c93p1-modal.open{display:flex;}
+.c93p1-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c93p1-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c93p1-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c93p1-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c93p1-close:hover{background:#e3d5b8;}
+.c93p1-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c93p1-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c93p1-tbl th,.c93p1-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c93p1-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c93p1-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c93p1-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c93p1-tbl b{color:#8b2500;}
+.c93p1-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c93p1-note b{color:#8b2500;}
+@media(max-width:900px){.c93p1-fabbox{right:14px;}.c93p1-tbl{font-size:11.5px;}.c93p1-card{padding:26px 14px 16px;}}
+</style>
+<div class="c93p1-fabbox" id="c93p1Box"><button class="c93p1-btn" id="c93p1Btn" type="button" aria-label="開啟全景總表"><span class="c93p1-ic">▦</span><span class="c93p1-ls"><span class="c93p1-l1">本品 · 取相麁業</span><span class="c93p1-l2">釋淨佛國土品第八十二之餘</span></span></button></div><div class="c93p1-modal" id="c93p1Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c93p1-card"><button class="c93p1-close" id="c93p1Close" type="button" aria-label="關閉">×</button><h3>品一．取相麁業——畢竟空中為何「取相」即是業？</h3><p class="sub">從麁業重界定，到如幻三昧化解空行之爭</p><table class="c93p1-tbl"><caption>麁業定義的翻轉</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>傳統麁業</td><td>世俗諦視角：殺盜淫妄等具體惡行，焦點在行為的染污</td></tr><tr><td>般若麁業</td><td>於諸法畢竟空中取相生著心；即便緣念涅槃真如，起取相心亦落麁業，焦點在認知的造作</td></tr><tr><td>三支箭解構</td><td>破眾生相（男女假名）→ 破法相（善惡因緣和合）→ 破無為相（涅槃亦不可取）</td></tr><tr><td>空與行的矛盾</td><td>萬法皆空與菩薩莊嚴佛土之間的張力；落有邊執實，落無邊廢萬行，皆非中道</td></tr></tbody></table><table class="c93p1-tbl"><caption>如幻三昧與二諦整合</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>破無為相之難</td><td>無為法一旦被當作可獲得的實體，取的當下即墮有為；真無為是「息滅取相」而非獲得清淨對象</td></tr><tr><td>如幻三昧</td><td>菩薩如幻術師：知幻而精進、不取而大作，遠離麁業而不廢萬行</td></tr><tr><td>二諦整合</td><td>俗諦緣起如幻建淨土萬行，真諦性空不取不染定實相，二者是同一實相的體用</td></tr><tr><td>三句口訣</td><td>緣起如幻（俗）· 性空不取（真）· 取即有為（破執），三者缺一不可，交會處即中道</td></tr></tbody></table><table class="c93p1-tbl"><caption>淨土莊嚴的如幻顯現</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>滿中珍寶供養</td><td>以三千大千珍寶、天樂、天香、百味食、隨意五欲供養迴向，福厚正建立於無執之上</td></tr><tr><td>隨意五欲之轉化</td><td>淨土眾生無雜穢心，五欲不染污而轉為如實顯現，異於世間匱乏取相之五欲</td></tr><tr><td>七寶樹音</td><td>風吹七寶之樹常出空、無相、無作之法音，即三解脫門之實相音</td></tr><tr><td>全局回顧</td><td>由經文矛盾出發，經三空解構，會歸如幻三昧，上提二諦，終至實相淨土；息滅戲論方契中道</td></tr></tbody></table><p class="c93p1-note">本品以「取相即業」重新定義麁業，把修行的戰場從外在行為徹底轉向內在認知：凡夫執「有」則落常見，惡取空者廢萬行則落斷見，唯有見「緣起如幻」與「性空不取」本是一體兩面，方能於畢竟空中不礙萬行、於萬行中不失畢竟空，如幻莊嚴而畢竟無得，正是中觀「不取亦不廢」的極致展現。</p></div></div>
+<script id="wy-c93p1-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c93p1Btn"),BOX=document.getElementById("c93p1Box"),MODAL=document.getElementById("c93p1Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=0;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".wy-vid,#wyVideo,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c93p1Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C93P1:END-->
 </body>
 </html>
