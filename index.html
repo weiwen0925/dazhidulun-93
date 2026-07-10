@@ -1090,5 +1090,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C93P2:END-->
+<!--WY-C93P3:BEGIN-->
+<style id="wy-c93p3-css">
+.c93p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c93p3-fabbox.show{display:block;}
+.c93p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c93p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c93p3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c93p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c93p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c93p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c93p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c93p3-modal.open{display:flex;}
+.c93p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c93p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c93p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c93p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c93p3-close:hover{background:#e3d5b8;}
+.c93p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c93p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c93p3-tbl th,.c93p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c93p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c93p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c93p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c93p3-tbl b{color:#8b2500;}
+.c93p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c93p3-note b{color:#8b2500;}
+@media(max-width:900px){.c93p3-fabbox{right:14px;}.c93p3-tbl{font-size:11.5px;}.c93p3-card{padding:26px 14px 16px;}}
+</style>
+<div class="c93p3-fabbox" id="c93p3Box"><button class="c93p3-btn" id="c93p3Btn" type="button" aria-label="開啟全景總表"><span class="c93p3-ic">▦</span><span class="c93p3-ls"><span class="c93p3-l1">本品 · 淨土工程</span><span class="c93p3-l2">淨佛國土品</span></span></button></div><div class="c93p3-modal" id="c93p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c93p3-card"><button class="c93p3-close" id="c93p3Close" type="button" aria-label="關閉">×</button><h3>品三．淨土工程——空性與妙有的建築藍圖</h3><p class="sub">淨土為加速實證空性所設計的緣起工程</p><table class="c93p3-tbl"><caption>淨土本體論與權實之辨</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>視角翻轉</td><td>淨土非享福處所，而是以無生法忍為基底、大福德為建材的緣起工程；環境即教法，相即破相之具</td></tr><tr><td>若無煩惱佛出何為</td><td>答以緣起潛伏義（大福德故惡緣不發，假名無）與高階增益義（受眾皆得無生法忍，利益轉大）</td></tr><tr><td>權實之辨</td><td>三乘是法性唯一之「一道」因五濁根器參差而權設的方便折射，非法體有三，亦非佛力有劣</td></tr><tr><td>境教一如</td><td>無常苦空之名亦不須存於淨土，因眾生已無顛倒病，若無病則不須藥，藥病俱空離二邊</td></tr></tbody></table><table class="c93p3-tbl"><caption>無情說法與救贖力學</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>無情說法</td><td>七寶樹以無心而出法音，截斷眾生對說法者的猜疑，無心則無欺，全沉浸式教學令眾生信受</td></tr><tr><td>聞名畢定</td><td>聞淨國佛名不言今得而畢至阿鞞跋致，是業果不失的時空力學，名號為強增上緣鎖定終局</td></tr><tr><td>顯化矩陣</td><td>釋迦現化受生同人心不敬重，淨國法性身光明遍滿令深信敬重，差別不在佛而在眾生心水之倒影</td></tr><tr><td>生疑的機制</td><td>生疑是以自我好惡審判實相的防禦機制，淨佛國中無此罪人，故不生疑亦不生悔</td></tr></tbody></table><table class="c93p3-tbl"><caption>正定聚與統一場論</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>正定聚防護</td><td>消極隔離杜絕疑悔誘因，積極以神力拔出眾生安置於不退轉的正定聚，容錯率為零</td></tr><tr><td>聞名與生彼之別</td><td>二者果性平等終點相同，唯生彼者常見佛常聞法深種善根，故疾得作佛，聞名者小不如</td></tr><tr><td>三層統一場論</td><td>體是諸法實相畢竟空，用是無情說法法性顯現無礙緣起，相是國土七寶融於疾得作佛</td></tr><tr><td>終極結論</td><td>淨土是以無生法忍為基底大福德為建材的破執機器，空性與妙有在此構成完美的緣起構造</td></tr></tbody></table><p class="c93p3-note">本品把淨土從世俗想像的享樂處所，翻轉為一部精密的破執機器：七寶莊嚴不是欲望的堆砌，而是逼顯空性的環境參數；寶樹無心說法，正因無心而無欺，遂能截斷眾生對說法者身分的猜疑；聞名與往生的效能差異，說明的不是果性有別，而是環境薰習之緣厚薄決定成佛之速。全品終歸一句：疑因執有，淨因悟空，空故無礙，畢定成佛——空性與妙有，在龍樹筆下構成了同一座緣起大廈的體與相。</p></div></div>
+<script id="wy-c93p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c93p3Btn"),BOX=document.getElementById("c93p3Box"),MODAL=document.getElementById("c93p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".wy-vid,#wyVideo,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c93p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C93P3:END-->
 </body>
 </html>
